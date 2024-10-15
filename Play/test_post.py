@@ -13,4 +13,5 @@ def test_response(playwright: sync_playwright):
     assert response.status == 201
     assert res["name"] == name
     assert res["email"] == email
-    print(res["id"])
+
+
